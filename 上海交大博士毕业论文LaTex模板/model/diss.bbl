@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{greenleaf2003ncs}
+Greenleaf A., Lassas M., and Uhlmann G., \enquote{{On nonuniqueness for
+  Calderon's inverse problem}}, Mathematical Research Letters, 2003,
+  \textbf{10}(5), 685.
+
+\bibitem{greenleaf2003acc}
+Greenleaf A., Lassas M., and Uhlmann G., \enquote{{Anisotropic conductivities
+  that cannot be detected by EIT}}, Physiological Measurement, 2003,
+  \textbf{24}(2), 413--419.
+
+\bibitem{pendry2006cef}
+Pendry J.B., Schurig D., and Smith D.R., \enquote{{Controlling Electromagnetic
+  Fields}}, Science, 2006, \textbf{312}(5781), 1780--1782.
+
+\bibitem{leonhardt2006ocm}
+Leonhardt U., \enquote{{Optical Conformal Mapping}}, Science, 2006,
+  \textbf{312}(5781), 1777--1780.
+
+\bibitem{schurig2006cmp}
+Schurig D., Pendry J.B., and Smith D.R., \enquote{{Calculation of material
+  properties and ray tracing in transformation media}}, Optics Express, 2006,
+  \textbf{14}(21), 9794--9804.
+
+\bibitem{chen2007ewi}
+Chen H., Wu B.I., Zhang B., \emph{et~al.}, \enquote{{Electromagnetic Wave
+  Interactions with a Metamaterial Cloak}}, Physical Review Letters, 2007,
+  \textbf{99}(6), 63903.
+
+\bibitem{schurig2006mec}
+Schurig D., Mock J.J., Justice B.J., \emph{et~al.}, \enquote{{Metamaterial
+  Electromagnetic Cloak at Microwave Frequencies}}, Science, 2006,
+  \textbf{314}(5801), 977--980.
+
+\bibitem{li2008huc}
+Li J. and Pendry J.B., \enquote{{Hiding Under the Carpet: a New Strategy for
+  Cloaking}}, Physical Review Letters, 2008, \textbf{101}(10), 203901--103904.
+
+\bibitem{Rliu2009bro}
+Liu R., C. L., Mock J.J., \emph{et~al.}, \enquote{{Broadband Ground Plane
+  Cloak}}, Science, 2009, \textbf{323}(1126), 366--369.
+
+\end{thebibliography}

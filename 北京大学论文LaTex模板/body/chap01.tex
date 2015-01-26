@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   LaTeX File for Doctor (Master) Thesis of Peking University
+%   LaTeX + CJK     北京大学博士（硕士）论文模板
+%   Based on Wang Lei's Template for THU
+%   Version: 1.00
+%   Last Update: 2005-05-25
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Copyright 2004-2005  by  Ying Pan       (yeying_pan@yahoo.com.cn)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{文档模板}
+\label{chap1}
+
+\section{样本}
+\label{chap1:sample}
+
+这一节是样本集合
+
+\subsection{插图样本}
+\label{chap1:sample:figure}
+
+这是一个插图样本
+
+\begin{figure}[h]
+\centering
+\includegraphics[totalheight=1.3in]{chap1_learn}
+\caption{学习机的结构框图} \label{fig:chap1:learning}
+\end{figure}
+
+如图\ref{fig:chap1:learning}所示：
+
+\subsection{表格样本}
+
+这是一个表格样本(如表~\ref{tab:example}所示)。
+
+\begin{table}[htb!]
+\caption{表格样本}\label{tab:example}
+\centerline{\begin{tabular}{|c|c|}
+\hline {\hei 表格样本} & {\hei 表格样本}\\
+\hline {短文字示例 } & \tablepage {1.8cm}{长文字示例长文字示例长文字示例长文字示例长文字示例}\\
+\hline\end{tabular}}
+\end{table}
+
+\subsection{公式样本}
+\label{chap1:sample:equation}
+
+贝叶斯公式如下：
+\begin{equation}
+ p(y|\mathbf{x}) = \frac{p(\mathbf{x},y)}{p(\mathbf{x})}=
+\frac{p(\mathbf{x}|y)p(y)}{p(\mathbf{x})} \label{equ:chap1:bayes}
+\end{equation}
+
+\noindent式(\ref{equ:chap1:bayes})中$p(y|\mathbf{x})$为后验；$p(\mathbf{x})$为先验
+；分母$p(\mathbf{x})$为归一化因子。
+
+\subsubsection{小小节样本}
+
+小小节文字，引文示例~\cite{ELIDRISSI94,MELLINGER96}。

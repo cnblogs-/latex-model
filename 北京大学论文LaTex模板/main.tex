@@ -1,0 +1,189 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   LaTeX File for Doctor (Master) Thesis of Peking University
+%   LaTeX + CJK     北京大学博士（硕士）论文模板
+%   Based on Wang Lei's Template for THU
+%   Version: 1.00
+%   Last Update: 2005-05-25
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Copyright 2004-2005  by  Ying Pan       (yeying_pan@yahoo.com.cn)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   LaTeX File for Doctor (Master) Thesis of Tsinghua University
+%   LaTeX + CJK     清华大学博士（硕士）论文模板
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Copyright 2002-2004  by  Lei Wang (BaconChina)       (bcpub@sina.com)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   LaTeX File for phd thesis of xi'an Jiao Tong University
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Copyright 2002  by  Wang Tianshu    (tswang@asia.com)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%draft 选项可以使插入的图形只显示外框，以加快预览速度。
+%fleqn 让公式左对齐。
+\documentclass[12pt,a4paper,openany,twoside]{book}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   引用的宏包
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 是否使用Yap的开关
+\def\useyap{true}
+
+\input{setup/package.tex}
+
+%\makeindex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 在左上角打印 'Draft Version' 水印
+% (From Josullvn, CS, CMU)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\reviewtimetoday}[2]{\special{!userdict begin
+    /bop-hook{gsave 20 710 translate 45 rotate 0.8 setgray
+    /Times-Roman findfont 12 scalefont setfont 0 0   moveto (#1) show
+    0 -12 moveto (#2) show grestore}def end}}
+
+% You can turn on or off this option.
+%\reviewtimetoday{\today}{Draft Version}
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+
+%定义所有的eps文件在 figures 子目录下
+\graphicspath{{figures/}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   文本格式定义
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{setup/format.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   正文部分
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%--- Preface ------------------------
+\frontmatter
+
+%解决中英文混排的断行问题，会加入间距，但不会影响断行
+\sloppy
+
+\pagenumbering{Roman}
+
+
+%封面 (中文封面)
+\input{preface/cover}
+
+%匿名评审封面
+%\input{preface/covera}
+
+%授权
+\copyright
+
+%中文摘要
+\include{preface/c_abstract}
+%英文摘要
+\include{preface/e_abstract}
+\makeabstract
+%目录
+\renewcommand{\baselinestretch}{1.5}
+\fontsize{12pt}{12pt}\selectfont
+
+\tableofcontents
+
+\cleardoublepage
+%表格目录
+\listoftables
+
+%插图目录
+\listoffigures
+
+%符号对照表
+\include{preface/denotation}
+
+\cleardoublepage
+
+%设置列表的行距
+
+\renewcommand{\labelenumi}{(\arabic{enumi})}
+\newitemsep
+
+% 对应于小四的标准字号是 12pt
+% 可以在正文中用此命令修改所需要字体的的大小
+% 下面这个设置是正文各章使用的标准字体与行距
+\renewcommand{\baselinestretch}{1.5}
+\fontsize{12pt}{13pt}\selectfont
+
+%--- body --------------------------
+\mainmatter
+%正文章节
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\include{body/chap01}
+\cleardoublepage
+\include{body/chap02}
+%\cleardoublepage
+%\include{body/chap03}
+%\cleardoublepage
+%\include{body/chap04}
+%\cleardoublepage
+%\include{body/chap05}
+%\cleardoublepage
+
+%结论
+
+\include{body/conclusion}
+\cleardoublepage
+
+%\backmatter
+
+%参考文献
+\wuhao
+
+\bibliographystyle{unsrt}
+
+%\ifpdf \phantomsection \fi
+
+\addcontentsline{toc}{chapter}{\hei参考文献}
+
+%\addtolength{\itemsep}{-0.8 em} % 缩小参考文献间的垂直间距, 在bibtex下无效
+\bibliography{body/reference}
+
+%打印索引
+%\generateindex
+\cleardoublepage
+%附录
+\begin{appendix}
+   \renewcommand{\chaptername}{附录\Alph{chapter}}
+   \input{appendix/chap01a}
+   %\input{appendix/chap02a}
+\end{appendix}
+\cleardoublepage
+
+%发表的文章列表
+\include{appendix/publications}
+%致谢
+\include{appendix/acknowledgements}
+\cleardoublepage
+
+%声明
+\statement
+\cleardoublepage
+\end{CJK*}
+\end{document}
+
+%%%%%%%%%%%%%%%%%% End of the file  %%%%%%%%%%%%%%%%%%%%%%%%

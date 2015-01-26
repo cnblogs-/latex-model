@@ -1,0 +1,695 @@
+This is e-TeX, Version 3.141592-2.2 (MiKTeX 2.4) (preloaded format=latex 2009.1.21)  28 JAN 2009 02:56
+entering extended mode
+**diss.tex
+(diss.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8g> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, french, loaded.
+(CASthesis.cls
+Document Class: CASthesis 2004/09/28 v0.1 CASthesis document class
+(C:\CTeX\localtexmf\tex\latex\ctex\ctexbook.cls
+Document Class: ctexbook 2006/06/09 v0.8 ctex document class
+\c@CTEX@sectiondepth=\count79
+(C:\CTeX\texmf\tex\latex\base\book.cls
+Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
+(C:\CTeX\texmf\tex\latex\base\bk12.clo
+File: bk12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\CTeX\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\CTeX\texmf\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:\CTeX\texmf\tex\latex\type1cm\type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+)
+(C:\CTeX\texmf\tex\latex\fancyhdr\fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(C:\CTeX\localtexmf\tex\latex\ctex\ctexcjk.clo
+File: ctexcjk.clo 2006/06/09 v0.8 ctex document class option
+
+(C:\CTeX\localtexmf\tex\latex\CJK\CJK.sty
+Package: CJK 2005/08/11 4.6.0
+
+(C:\CTeX\localtexmf\tex\latex\CJK\mule\MULEenc.sty
+File: MULEenc.sty 2005/08/11 4.6.0
+)
+(C:\CTeX\localtexmf\tex\latex\CJK\CJK.enc
+File: CJK.enc 2005/08/11 4.6.0
+)
+LaTeX Info: Redefining \selectfont on input line 655.
+\CJK@indent=\box26
+)
+(C:\CTeX\localtexmf\tex\latex\CJK\CJKnumb.sty
+Package: CJKnumb 2005/08/11 4.6.0
+\CJK@q=\count89
+\CJK@r=\count90
+)
+(C:\CTeX\localtexmf\tex\latex\ctex\CJKpunct.sty
+Package: CJKpunct 2005/10/18 4.6.0
+LaTeX Info: Redefining \texttt on input line 419.
+)
+\ccwd=\dimen103
+)
+\CTEX@q=\count91
+\CTEX@r=\count92
+)
+(C:\CTeX\localtexmf\tex\latex\ctex\ctex.def
+File: ctex.def 2006/06/09 v0.8 ctex configuration file
+)
+(C:\CTeX\localtexmf\tex\latex\ctex\ctexcap.cfg
+File: ctexcap.cfg 2006/06/09 v0.8 ctex configuration file
+)
+(C:\CTeX\localtexmf\tex\latex\ctex\ctex.cfg
+File: ctex.cfg 2006/06/09 v0.8 ctex configuration file
+)
+(C:\CTeX\texmf\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(C:\CTeX\texmf\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\CTeX\texmf\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen104
+))
+(C:\CTeX\texmf\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(C:\CTeX\texmf\tex\latex\amsmath\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks16
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks17
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks18
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(C:\CTeX\texmf\tex\latex\amscls\amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks25
+)
+(C:\CTeX\texmf\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+(C:\CTeX\texmf\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+)
+(C:\CTeX\texmf\tex\latex\tools\bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
+)
+(C:\CTeX\texmf\tex\latex\jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup9
+)
+(C:\CTeX\texmf\tex\latex\ccaption\ccaption.sty
+Package: ccaption 2005/03/29 v3.2a Extended captioning and new floats
+\@contcwidth=\skip58
+\@contindw=\skip59
+\abovelegendskip=\skip60
+\belowlegendskip=\skip61
+\c@newflo@tctr=\count105
+)
+(C:\CTeX\texmf\tex\latex\cite\cite.sty
+LaTeX Info: Redefining \cite on input line 149.
+LaTeX Info: Redefining \nocite on input line 214.
+Package: cite 2003/11/04  v 4.01
+)
+(C:\CTeX\texmf\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\CTeX\texmf\tex\latex\graphics\graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\CTeX\texmf\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\CTeX\texmf\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2005/12/29 v1.2 MiKTeX 'graphics' configuration
+)
+Package graphics Info: Driver file: dvipdfm.def on input line 90.
+
+(C:\CTeX\texmf\tex\latex\00miktex\dvipdfm.def
+File: dvipdfm.def 1999/9/6 vx.x Driver-dependant file
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(C:\CTeX\texmf\tex\latex\psfrag\psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count106
+\pfg@scount=\count107
+\pfg@temp=\write3
+)
+(C:\CTeX\texmf\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2006/09/06 v6.75e Hypertext links for LaTeX
+\@linkdim=\dimen115
+\Hy@linkcounter=\count108
+\Hy@pagecounter=\count109
+
+(C:\CTeX\texmf\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2006/09/06 v6.75e Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\CTeX\texmf\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2006/02/14 v1.1 MiKTeX 'hyperref' configuration
+)
+(C:\CTeX\texmf\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2123.
+Package hyperref Info: Link nesting OFF on input line 2128.
+Package hyperref Info: Hyper index ON on input line 2131.
+Package hyperref Info: Plain pages OFF on input line 2138.
+Package hyperref Info: Backreferencing OFF on input line 2143.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2273.
+(C:\CTeX\texmf\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip11
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2428.
+\Fld@menulength=\count110
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+\Choice@toks=\toks26
+\Field@toks=\toks27
+Package hyperref Info: Hyper figures OFF on input line 2906.
+Package hyperref Info: Link nesting OFF on input line 2911.
+Package hyperref Info: Hyper index ON on input line 2914.
+Package hyperref Info: backreferencing OFF on input line 2921.
+Package hyperref Info: Link coloring OFF on input line 2926.
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
+)
+*hyperref using driver hdvipdfm*
+(C:\CTeX\texmf\tex\latex\hyperref\hdvipdfm.def
+File: hdvipdfm.def 2006/09/06 v6.75e Hyperref driver for dvipdfm
+\pdfm@box=\box29
+\Fld@listcount=\count114
+)
+Package hyperref Info: Option `CJKbookmarks' set `true' on input line 99.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 99.
+Package hyperref Info: Option `colorlinks' set `true' on input line 99.
+Package hyperref Info: Option `plainpages' set `false' on input line 99.
+)
+(C:\CTeX\texmf\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(C:\CTeX\texmf\tex\latex\00miktex\color.cfg
+File: color.cfg 2005/12/29 v1.1 MiKTeX 'color' configuration
+)
+Package color Info: Driver file: dvipdfm.def on input line 130.
+
+(C:\CTeX\texmf\tex\latex\graphics\dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(C:\CTeX\texmf\tex\latex\overpic\overpic.sty
+Package: overpic 1999/07/04 v0.52  Overwriting eps pictures
+
+Package: overpic v0.52 <1999/07/04> (RN)
+(C:\CTeX\texmf\tex\latex\eepic\epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count115
+\d@lta=\count116
+\@delta=\dimen118
+\@@delta=\dimen119
+\@gridcnt=\count117
+\@joinkind=\count118
+\@dotgap=\dimen120
+\@ddotgap=\dimen121
+\@x@diff=\count119
+\@y@diff=\count120
+\x@diff=\dimen122
+\y@diff=\dimen123
+\@dotbox=\box30
+\num@segments=\count121
+\num@segmentsi=\count122
+\@datafile=\read1
+)
+overpic: relative positioning in percent
+) (C:\CTeX\texmf\tex\latex\bbm\bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(C:\CTeX\texmf\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (diss.aux (body/abstract.aux)
+(body/symbol.aux) (body/chapter01.aux) (body/chapter02.aux
+
+LaTeX Warning: Label `chap:Intro' multiply defined.
+
+
+LaTeX Warning: Label `fig:SRR' multiply defined.
+
+) (body/app1.aux) (body/resume.aux) (body/thanks.aux) (body/pub.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+Package hyperref Info: Link coloring ON on input line 43.
+
+(C:\CTeX\texmf\tex\latex\hyperref\nameref.sty
+Package: nameref 2006/08/15 v2.26 Cross-referencing by name of section
+
+(C:\CTeX\texmf\tex\latex\oberdiek\refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count123
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+ (diss.out) (diss.out)
+\@outlinefile=\write4
+
+(CASthesis.cfg
+File: CASthesis.cfg 2004/09/28 v0.1 CASthesis configuration file
+\c@algo=\count124
+\c@thm=\count125
+\c@defn=\count126
+\c@conj=\count127
+\c@exmp=\count128
+\c@rem=\count129
+\c@case=\count130
+) (C:\CTeX\localtexmf\tex\latex\CJK\standard.bdg
+File: standard.bdg 2005/08/11 4.6.0
+)
+(C:\CTeX\localtexmf\tex\latex\CJK\extended.enc
+File: extended.enc 2005/08/11 4.6.0
+)
+(C:\CTeX\localtexmf\tex\latex\ctex\extended.chx
+File: extended.chx 2004/02/13 4.5.2
+)
+(C:\CTeX\localtexmf\tex\latex\cct\GBKkern.cfg)
+LaTeX Font Info:    Try loading font information for C19+song on input line 74.
+
+
+(C:\CTeX\localtexmf\tex\latex\CJK\GB\c19song.fd
+File: c19song.fd 1999/06/20 4.3.0
+)
+LaTeX Font Info:    Try loading font information for C19+hei on input line 74.
+
+(C:\CTeX\localtexmf\tex\latex\CJK\GB\c19hei.fd
+File: c19hei.fd 1999/06/20 4.3.0
+)
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.54> not available
+(Font)              size <10.95> substituted on input line 74.
+
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 74.
+(C:\CTeX\texmf\tex\latex\jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.54> not available
+(Font)              size <10.95> substituted on input line 74.
+
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.53> not available
+(Font)              size <8> substituted on input line 74.
+
+[1
+
+
+] (C:\CTeX\localtexmf\tex\latex\CJK\extended.chr
+File: extended.chr 2005/08/11 4.6.0
+) [2
+
+] [3
+
+
+] [4
+
+
+]
+LaTeX Font Info:    Try loading font information for C19+rm on input line 79.
+
+(C:\CTeX\localtexmf\tex\latex\ctex\c19rm.fd
+File: c19rm.fd 2006/06/09 v0.8 ctex font definition file
+) (gbksong.tbl) [5
+
+] [6
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+
+ []
+
+[7
+
+] [8
+
+
+] (body/abstract.tex
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\CJK@globalfamily' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\CJK@temp' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\CJK@family' on input line 1.
+
+(gbkhei.tbl) [1
+
+
+
+] [2
+
+]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\CJK@globalfamily' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\CJK@temp' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 12.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\CJK@family' on input line 12.
+
+) [3] [4
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string:
+(hyperref)                \hskip 12.05pt
+(hyperref)                replaced by space on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string:
+(hyperref)                \hskip 12.05pt
+(hyperref)                replaced by space on input line 91.
+
+(diss.toc [5])
+\tf@toc=\write5
+ [6] (diss.lot)
+\tf@lot=\write6
+ [7
+
+] [8
+
+] (diss.lof)
+\tf@lof=\write7
+ [9] (body/symbol.tex [10
+
+
+])
+[11] [12
+
+
+] (body/chapter01.tex
+第一章
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12.05> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+[1
+
+
+]
+File: figures/chap1/fig1.jpg Graphic file (type eps)
+ <figures/chap1/fig1.jpg>
+File: figures/chap1/fig2.jpg Graphic file (type eps)
+ <figures/chap1/fig2.jpg>
+LaTeX Font Info:    Try loading font information for C19+kai on input line 53.
+
+(C:\CTeX\localtexmf\tex\latex\CJK\GB\c19kai.fd
+File: c19kai.fd 1999/06/20 4.3.0
+) [2]) [3] (body/chapter02.tex
+[4
+
+
+
+]
+第二章
+File: figures/chap1/fig1.jpg Graphic file (type eps)
+<figures/chap1/fig1.jpg>
+File: figures/chap1/fig2.jpg Graphic file (type eps)
+ <figures/chap1/fig2.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6]) [7] (body/app1.tex [8
+
+
+
+]
+附录\hspace {0.25em plus 0.125em minus 0.08em}\ignorespaces A
+) [9] [10
+
+
+] (diss.bbl) [11
+
+] (body/resume.tex [12
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string:
+(hyperref)                \hskip 12.05pt
+(hyperref)                replaced by space on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string:
+(hyperref)                \hskip 12.05pt
+(hyperref)                replaced by space on input line 2.
+
+) [13] (body/thanks.tex [14
+
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string:
+(hyperref)                \hskip 12.05pt
+(hyperref)                replaced by space on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string:
+(hyperref)                \hskip 12.05pt
+(hyperref)                replaced by space on input line 1.
+
+) [15] (body/pub.tex [16
+
+
+
+]) [17] (diss.aux (body/abstract.aux) (body/symbol.aux) (body/chapter01.aux) (b
+ody/chapter02.aux) (body/app1.aux) (body/resume.aux)
+(body/thanks.aux) (body/pub.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.47pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7711 strings out of 95889
+ 99383 string characters out of 1195117
+ 164654 words of memory out of 1161699
+ 10041 multiletter control sequences out of 60000
+ 76874 words of font info for 270 fonts, out of 1000000 for 2000
+ 14 hyphenation exceptions out of 4999
+ 40i,12n,51p,259b,1034s stack positions out of 5000i,500n,10000p,200000b,32768s
+
+Output written on diss.dvi (37 pages, 70216 bytes).

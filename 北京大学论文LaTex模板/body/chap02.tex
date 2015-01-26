@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   LaTeX File for Doctor (Master) Thesis of Peking University
+%   LaTeX + CJK     北京大学博士（硕士）论文模板
+%   Based on Wang Lei's Template for THU
+%   Version: 1.00
+%   Last Update: 2005-05-25
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Copyright 2004-2005  by  Ying Pan       (yeying_pan@yahoo.com.cn)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{有关说明}
+\label{chap2}
+
+\section{更新记录}
+\label{chap2:update}
+
+V1.00 \quad 2005.05.25
+\begin{denselist}[]
+    \item {修改为北京大学论文模版，按学校规定调整版面}
+    \item {修改版芯位置，使其居中}
+    \item {修改列表间距}
+    \item {增加表格中中文换行}
+\end{denselist}
+
+\section{软件环境}
+\label{chap2:config}
+
+作者使用的安装是MiKTeX 2.1完全安装，CJK安装包1.0。此外，在MiKTeX
+2.2和MiKTeX 2.3的
+完全安装上测试无误。理论上讲，安装CTEX的套装也有同样效果。另外，不使用
+完全安装，而只要补齐相应需要的package，也是可以的。
+
+dvipdfmx是可选安装包，用来生成Ture
+Type中文字体的pdf，也就是可以从中拷
+贝出中文的pdf。它的前身是dvipdfm-cjk。两者效果基本一致。下载地点是http://project.ktug.or.kr/dvipdfmx/
+
+\section{相关文档}
+\label{chap2:doc}
+
+本文中用到的\LaTeX 命令主要参考了\TeX Guru的《\LaTeX
+2$\varepsilon$用户手册》~\cite{TEXGURU99}。此外，还参考了Micheal
+Shell为IEEE \LaTeX 模板所写的说明文档~\cite{SHELL02}。
+
+有关fancyhdr宏包的使用，参考了Piet van Oostrum撰写，ifuleyou @
+bbs.ctex.org翻译的《\LaTeX下的页面布局》~\cite{OOSTRUM01}。
+有关titlesec和titlesoc宏包的使用，则参考了Javier Bezos的《The
+titlesec and titletoc
+Packages》~\ucite{BEZOS02}。有关图形图表等浮动对象的设置与处理，参见《\LaTeX
+2$\varepsilon$插图指南》~\cite{WANG00}
+
+\section{使用须知}
+\label{chap2:usage}
+
+作者假定模板的用户具备基本的使用\LaTeX
+的能力和知识。由于时间和知识所限，作者无法提供细致的范例和文档，
+特别是对于章节层次、图形、表格、公式等\LaTeX
+基本元素的使用方法，恕作者无法提供解答。请参考《\LaTeX
+2$\varepsilon$用户手册》~\cite{TEXGURU99}。
+
+hyperref宏包被用来生成带有链接的pdf文档。但是，使用后编译得出的dvi文件
+不能在Yap里打开。建议用户在使用时，先把这一段注释掉，以方便平时的编辑
+与核对，待打印或提交时再使用hyperref宏包生成pdf。有关这一问题的详细叙
+述，请参见CTEX论坛的系列讨论(http://bbs.ctex.org/cgi-bin/view.cgi?forum=9\&topic=48)。
+
+将模板包解开后，用户只要修改模板中相应的文字部分，然后编译main.tex即可得到符合
+标准的论文。模板包中各个目录和文件的内容是：
+
+\begin{tabular}{ll}
+main.tex & 主文件\\
+gb\_452.cap & \tablepage {290pt}{aloft的gb.cap的4.5.2版，包含了中文格式有关的基本定义。作者对原始版本进行了少量修改，所以请勿用其它版本覆盖}\\
+gb\_452.cpx & \tablepage{290pt}{与gb\_452.cap内容完全一样的文件。不同的\LaTeX 系统要求不同的文件后缀，两个文件保证了兼容性}\\
+clean.bat &
+\tablepage{290pt}{用来删除所有编辑和编译时产生的临时文件}\\
+appendix & \tablepage{290pt}{附录部分，包括致谢，附录章节和个人简历及发表的文章列表等}\\
+body &  正文部分，包括正文各章节和结论，参考文献.bib文件\\
+figures & 存放所有插图的目录\\
+preface  & \tablepage{290pt}{封面，中文摘要，英文摘要，主要符号表等}\\
+reference & 存放参考文献.bib文件的目录\\
+setup     &
+\tablepage{290pt}{存放设置文件的目录，其中package.tex包含对宏包的引用和参数设置，format.tex包含具体的格式调整和定义}\\
+\end{tabular}
+
+\section{下载和更新}
+\label{chap2:update}
+
+下载地址为：
+ftp://ftp.sei.pku.edu.cn/incoming/document/dissertation\_template\_PKU/
+
+欢迎用户对模板进行改进，包括对范例文档进行丰富。修改后的模版请打包上传至
+ftp://ftp.sei.pku.edu.cn/incoming/document/dissertation\_template\_PKU/
+命名方式为dissertation\_template\_PKU\_作者名\_版本号。
+
+\section{常见问题}
+
+{\hei 问：为什么用pdflatex编译会出错？
+
+答：}由于宏包之间的兼容性不同，这个模板是用latex编译的。要生成pdf文件，
+只要在编译成功后使用dvi2pdf命令或dvi2ps,ps2pdf命令即可。
+
+{\hei 问：为什么引用文献的地方出现的是问号，还有很多错误信息？
+
+答：}先用latex编译，然后bibtex编译，最后latex两次，应该就可以了。因为
+从.bib文件中生成的引文项是与论文内容相关的，修改论文引文后需要用latex编译，
+知道有哪些引文项，然后用bibtex编译，从.bib文件中生成实际的引文部分，最后
+用latex编译，在论文中实现对参考文献的引用。

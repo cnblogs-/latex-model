@@ -1,0 +1,88 @@
+\documentclass[dvipdfm]{ZJUthesis}
+% 取消链接的颜色
+%\hypersetup{colorlinks=false}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 封面部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  % 中文封面内容
+
+  \classification{0241.5}  %根据浙江大学学位论文格式要求，为中图分类号
+
+  \serialnumber{12345}   % 各系可以自己确定这个编号的使用方法
+
+  \title{浙江大学数学系学位论文~\LaTeX{}~模板}
+  \author{***}
+ %\degree{博\quad 士}
+  \supervisor{*** \quad 教授}
+  \major{计\quad 算\quad 数 \quad 学}
+ %\institute{理\quad 学\quad 院}
+  \submitdate{二零零六年四月}
+  \defenddate{二零零六年六月}
+
+  % 英文封面内容，可以不要
+  \englishtitle{\LaTeX{} Thesis Template \\ of \\ Dept. Math Zhejiang University}
+  \englishauthor{name}
+  \englishdegree{Ph.D.}
+  \englishadvisor{Prof. name}
+  \englishinstitute{Dept. Mathematics}
+  \englishmajor{Computational Mathematics}
+
+  % 封面
+  \maketitle
+
+  % 英文封面，可以不要
+  \makeenglishtitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 前言部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+
+  % 摘要
+  \include{chapter/abstract}
+
+  % 目录
+  \tableofcontents
+  % 表格目录
+  \listoftables
+  % 插图目录
+  \listoffigures
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 正文部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+
+  \include{chapter/chap-intro}
+  \include{chapter/chap-math}
+  \include{chapter/chap-tabfig}
+
+  % 附录
+  \appendix
+
+  \include{chapter/chap-req}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 附件部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+
+  % 参考文献
+   \include{chapter/bib}
+
+  % 发表文章目录
+  \include{chapter/pub}
+
+  % 个人简历
+  \include{chapter/resume}
+
+  % 致谢
+  \include{chapter/thanks}
+
+
+\end{document}

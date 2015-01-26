@@ -1,0 +1,9 @@
+\chapter{主要符号对照表}
+\label{chap:symb}
+\begin{tabular}{ll}
+
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+ \hspace{2em}$\epsilon$       & \hspace{5em}介电常数 \\
+ \hspace{2em}$\mu$ \qquad     & \hspace{5em}磁导率 \\
+
+\end{tabular}

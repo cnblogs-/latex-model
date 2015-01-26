@@ -1,0 +1,81 @@
+\begin{abstract}
+中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分
+中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分
+中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分
+中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分
+中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分
+中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分，中文摘要部分
+
+ \keywords{自旋轨道耦合，自旋霍尔效应，自旋霍尔电导，自旋极化}
+\end{abstract}
+
+\begin{englishabstract}
+  In this dissertation we have made a detail investigation on spin
+  Hall effect and related transport property in two-dimensional
+  spin-orbital interaction electron system. Here the discussed spin Hall effect
+  is in the regime of the intrinsic one which is induced by the
+  spin-orbital interaction relied on the structure of the system rather than on the impurity
+  scattering.
+
+  In chapter one we review the recent theoretical and experimental
+  research on the spin Hall effect and bulk spin polarization in
+  spin-orbital coupling systems. We discuss the origin of the
+  spin-orbital interaction in atom with both the phenomenological analysis
+  and the rigorous Dirac equation, and describe the spin-orbital
+  coupling in solid, especially, the Rashba coupling in chapter two.
+  And finally we give the eigen energies and eigen states for Rashba
+  system. In chapter three the definition of the spin current and
+  some related problem are discussed. By using the conventional
+  definition, we first calculate the spin-Hall conductivity without
+  impurity, and then consider the system in the diffusive regime.
+
+  We discuss the properties of the linear Rashba system in the
+  presence of the THz optical field in chapter four. For high frequency situation
+  the clean assumption is valid, we discuss the system without
+  impurity. We find that the spin-Hall current oscillates with
+  the frequency of the THz field and its amplitude is
+  influenced by the optical intensity. We observe the nonlinearity
+  between the spin-Hall current amplitude and the optical intensity,
+  amplitude may reach a maximum and then decrease. These feature may provide a different
+way to control the spin polarization and the spintronic devices
+optically in nonmagnetic semiconductors. Since the oscillated spin
+current is directly related to the bulk spin polarization, this
+provides a direct method to study the relationship between the
+traditional spin current density and the experimental measurement.
+
+Since the precise cancellation of spin-Hall conductivity in the
+Rashba model of two dimensional electron systems occurs only for the
+parabolic energy spectrum, in chapter five we consider the
+nonparabolic situation. For nonparabolic Kane dispersion, we find
+that the cancellation effect from the spin-dependent part of the
+ladder current vertex in the Born approximation for impurity
+scattering will not occur. The total spin Hall conductivity is
+finite and its value not only relates to the nonparabolic degree of
+the electron energy dispersion but also strongly depends on the
+smoothness of the disorder, and it increases with the increasing
+electron density. The overshoot phenomena analogous with the one of
+charge current is observed for the transient situation.
+
+In chapter six, we discuss other properties of this Rashba system by
+the balance equation approach. In the case of realistic impurity and
+phonon scatterings, the longitudinal conductivity is shown to depend
+on the spin-orbital coupling strength, though the transverse
+conductivity remains zero. The nonlinear effect of spin-orbital
+coupling on the $y$ component of the spin polarization is observed,
+while the other components still vanish. At high temperatures, the
+phonon scattering has an impact on the suppression of the mobility
+peak and the spin polarization. In the nonlinear case, we find that
+the spin-orbital coupling may enhance the electron cooling, a clear
+saturation of spin polarization appears at high electric field, and
+the maximum $y$ component of spin polarization the system can reach
+is limited by the spin-split strength. These features are in
+qualitative agreement with experimental results. We have also
+studied the effect of nonparabolicity due to Rashba coupling and
+find that it plays an appreciable role for low density and strong
+spin-orbital coupling system.
+
+The last chapter gives the conclusion and outlook of this
+dissertation.
+
+ \englishkeywords{spin-orbital coupling, spin Hall Effect, spin Hall conductivity, spin polarization}
+\end{englishabstract}

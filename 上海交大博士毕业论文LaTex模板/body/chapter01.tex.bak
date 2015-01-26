@@ -1,0 +1,231 @@
+\bibliographystyle{E:/thesis_yangtao_new/sjtu2}
+\chapter{绪论}
+\label{chap:Intro}
+{\em{1. When a distinguished but elderly
+scientist states that something is possible, he is almost certainly
+right. When he states that something is impossible, he is very
+probably wrong.}}
+
+{\em{2. The only way of discovering the limits of the possible is to
+venture a little way past them into the impossible.}}
+
+{\em\textbf{3. Any sufficiently advanced technology is
+indistinguishable from magic.}}
+
+{\em\textbf{\hspace{19em}---Arthur C. Clarke}}
+\section{超介质（Meta-material）}
+超介质是一种新型的人工材料，具有独特的性能。近年来，很多魔术一般的新奇现象（隐身斗篷，超散射体等）是通过
+这种自然界不存在的，由人工制备，具有特殊性质的复合材料---超介质（Meta-materials）来实现的。
+Meta-material 一词是由美国德州大学奥斯汀分校的 Rodger M. Walser
+教授在1999年提出的。超介质是用来描述在自然界中
+不可能存在的，必须通过人工方式制造的（如光/声子晶体（PCs），开环振荡器（SRR）），在三维空间中具有周期性结构的复合
+材料。作为一种真正的``人工''材料，超介质不同于真实存在于自然界中的材料仅有一种结构的特点，而是可以人为地随意改变组
+成这种材料最小单位的内在结构、外在形状等因素，通过对这些最小单位的设计和控制，从而赋予超介质各种各样神奇的特质。
+对关注科技动态的人来说，``超介质''这一名词并不陌生。
+例如，通过一定的``人工''安排，超介质可以使光线弯曲，如国光线照到这种材料上，会主动绕弯过去，因而，
+被这种材料包裹的物体就具有了隐身作用。
+
+迄今为止，我们所见到的各类功能材料绝大部分都是建立在自然材料物理性质的改进和提高上。但是随着制备水平的进步，
+对于自然界中存在的材料的性质发掘空间逐渐减小。超介质思想的提出给新材料的设计和发展提供了新的机会。
+自超介质的概念提出之后，科研工作者经过十几年的努力，其理论及实验方面的研究工作取得了很多令人振奋的进展，
+从而迅速发展成为电磁学、声学、
+材料科学等学科的前沿交叉领域。目前，各种文献上给出的关于超介质的定义也不尽相同，现如今
+对超介质一词比较公认的定义，
+是``具有天然材料所不具备的超常物理性质的人工复合结构或复合材料''，即通过将某种几何结构的单元嵌入到传统的介质材料中，构造
+出自然界中不具有的功能材料。它主要有以下三个
+重要特征：人工合成结构的复合材料（如光/声子晶体等）；具有超常的物理性质（如负折射率，负体模量等）；性质往往
+不主要决定于构成材料的本征性质，而决定于其中的人工结构（如声/光子晶体等）。
+
+超介质是一门日益兴起的新学科，已经受到越来越多的学者的关注。它的出现，昭示着人们
+可以在不违背基本物理学规律的前提下，人为地制造各种超常性质的``新介质''。现如今，超介质在隐身/反隐身材料、定向辐射（天线）、
+完美透镜（~perfect lens~）和超透镜（~superlens, hyperlens~）、
+光频超磁性材料等方面有着非常广泛的应用和发展前景。近年来
+超介质的理论及其应用技术正在飞速发展，为与之相联系的电、磁、光和声性质相关联的信息元件的新突破提供了一个新的契机。
+\section{几类超介质}
+下面就将几类与本文相关的超介质做一简单的介绍。
+
+\subsection{光子晶体}
+\begin{figure}[h]
+\begin{center}\includegraphics[scale=0.4]{figures/intro/photo}
+\bicaption[fig:photonicCrystals]{The properties of bulk photonic
+crystals}{三维光子晶体的能带结构（取自文献\cite{JohnD}）。}{Fig}{The
+properties of bulk photonic crystals(from Ref.\cite{JohnD}).}
+\end{center}
+\end{figure}
+传统的晶体材料中由于周期性势场的作用，电子会形成能带结构，带与带之间会存在所谓的带隙。通过借用
+传统晶体的能带结构的分析思想，在1987年，E.~Yablonovitch\upcite{Yablonovitch1987}和
+S.~John\upcite{john1987}将其推广到宏观尺度，用于研究光波在人工设计的
+晶格材料中的传播行为，即，通过人为的设计和调节，来实现对光波的传播行为的控制，并且分别独立地提出``光子晶体''（Photonic
+Crystals）
+的概念。随后在1991年，E.~Yablonovitch等\upcite{Yablonovitch1991}首先在微波波段用
+试验验证了光子禁带的存在，使这一领域的研究引起了广泛关注。
+
+光子晶体的研究，类似普通晶体，是将具有不同折射系数的介质（宏观的物体取代传统晶体中原子和分子）在空间按一定的周期排列，当
+空间周期与光波长相当时，周期性所带来的布拉格散射就能够在一定频域内产生``光子禁带''。如果
+光子晶体的折射率在周期性结构中出现缺陷，就会出现类似于光波导或者全反射面等新奇的现象。同时
+由于布里渊区附近非线性色散关系的存在，可以相应地改变元胞的介电常数和几何结构，从而实现负折射现象等，其性质如图\ref{fig:photonicCrystals}。这些
+性质都具有很重要的应用价值，如设计光波导，激光原件，超级棱镜等，同时在微波波段也有很多的应用。
+\subsection{声子晶体}
+``声子晶体''（phononic crystal，sonic crystal，acoustic
+crystal）其概念的提出主要来源于与``光子晶体''的对比，
+它的主要特点是存在弹性波带隙，并且材料的弹性常数及密度按周期性结构分布。
+
+声子晶体是由弹性性质不同的材料组成，表现为密度$\rho$和弹性常数$\lambda,\mu$不同的材料按结构
+周期性复合在一起，我们将分布在格点上相互不连通的材料称为散射体，
+连通为一体的背景介质材料称为基体。弹性波在声子晶体中传播时，
+受内部散射体的作用，形成特殊的能带结构，处于带隙频率范围内的弹性波传播将被禁止，而其它频率范围的
+弹性波可以无损耗地传播。
+与光子晶体类似，当声子晶体的周期结构存在缺陷时，带隙频率范围内的弹性波将被局域
+在缺陷处，或沿缺陷传播。
+
+理想的声子晶体模型一般认为在非周期方向上具有无限尺寸，这种假设只有在波长远小于非周期
+方向尺寸时才合理。由于固体中弹性波传播速度较快，实际工程中广泛应用的梁、板等结构均不能满足这一条件，因此，
+研究非周期方向上为有限尺寸的周期结构更有实际意义。
+
+对声子晶体性质的探索目前正处于基础研究阶段，
+由于在固体介质中，横波和纵波
+的耦合以及相互激励等复杂的过程，使得人们在声子晶体
+的研究中并未取得实质性的突破。声子晶体
+早期的研究都集中在能带的应用与计算，如声子晶体中的禁带可以应用于滤波器以阻止特定频率
+入射的弹性波的传播，进而达到滤波的效果；
+完整的声子禁带可以在某些选择的频带范围内，提供
+需要高精密度的机械仪器系统的完全无振动的环境；而且，在水下测量实验用来发射与接受声波
+的压电探头，或者医学上使用的超声波探头，都是
+由周期性排列的压电板组成，同样属于声子晶体的研究范畴。近年来的一些研究发现在声子晶体
+的传导区域拥有异常的频散现象，即负折射率现象，也引起了广泛的关注。
+
+关于声子晶体的具体性质将在本论文的后半部分详细讨论。
+
+\subsection{左手材料和开环振荡器（SRR）}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.6]{figures/intro/srr_rod}\hfill
+\includegraphics[scale=0.4]{figures/intro/PCB_srr}
+\includegraphics[scale=0.5]{figures/intro/negwave}
+\bicaption[fig:SRR]{The schemtic of split ring
+resonator.}{左手材料示意图（取自文献\cite{shelby2001evn}）。}{Fig}{The
+schemtic of split ring resonator.(from Ref.\cite{shelby2001evn}).}
+\end{center}
+\end{figure}
+超介质与``左手材料''的发展息息相关。介电常数$\epsilon$与磁导率$\mu$是描述物质基本电磁性质的物理量，
+自然界中存在的介质$\epsilon>0,\mu>0$。1964年，前苏联物理学家Veselago\upcite{veselago1968ess}
+研究了电磁波在$\epsilon<0,\mu<0$的假想介质中的传播性质，发现电磁波相位传播方向与能量的传播方向相反。
+由于常规介质中电场强度$\bf E$，磁场强度$\bf H$，波矢量$\bf
+k$服从右手定则；而$\epsilon<0,\epsilon<0$的假想介质，$\bf E$，$\bf
+H$，$\bf
+k$服从左手定则，因此它被称为``左手材料''。左手材料的提出和实现彻底改变了人们对
+传统介电常数和磁导率两个物理量的认识，奇特的现象表现为负折射率，倏逝波放大，逆多普勒效应等，
+而直接的应用表现为完美透镜（perfect
+lens）、超透镜（superlens，hyperlens）、隐身（声）衣、定向天线等。
+这些性质将在军事和我们的日常生活中发挥广泛的和日益重要的作用\upcite{Meta_CN}。
+
+1996年，Pendry等人通过周期性的细金属棒阵列，实现了等效负介电常数\upcite{pendry1996elf}，
+它产生等离子体效应的机理是
+电磁场在细金属棒上产生感应电流，使细金属棒上正负电荷分别向两边聚集，从而产生与外来电场相反的电动势\upcite{pendry1998lfp}，随后在
+1999年，提出了开环振荡器（SRR），实现了负磁导率\upcite{pendry1999mca}。D.
+R.
+Smith等人将细金属棒放置在SRR旁边，通过周期性阵列使外部电场和磁场在金属结构上的感应电流同时起作用，
+通过计算发现在某些频段，等效介电常数和磁导率都为负，首次实现了``左手材料''\upcite{smith2000cms}，并随后
+设计了棱镜折射实验，首次验证了负折射率的存在\upcite{shelby2001evn}。基于这个设计，很多改进的左手材料结构
+应用而生，包括对称环结构\upcite{obrien2002mai,grzegorczyk2005plh}、
+$\Omega$结构\upcite{huangfu2004ecn,eleftheriades2003tlm,chen2006ecm}、
+$S$结构\upcite{chen2004lhm,chen2004mel,chen2005mps,chettiar2006dbn}、
+随机结构\upcite{chen2006mrp}，有源左手材料\upcite{hand2007ctm,chen2006clh}等等。
+\section{补偿介质理论}
+2003年，J.B.
+Pendry等人提出了补偿介质理论。负折射率材料与相应的正折射率材料之间的空间会被
+移除。
+\section{转换光学（介质）理论及其应用}
+\subsection{转换光学}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.6]{figures/intro/transform}
+\bicaption[fig:pendry_ray1]{自由空间和变形空间的笛卡尔坐标栅格中的场线。}{场线。（A）自由空间
+中笛卡尔坐标系栅格中场线；（B）变形的笛卡尔坐标栅格中的场线。}{Fig}
+{(A) A field line in free space with the background Cartesian
+coordinate grid shown; (B) The distorted field line with the
+background coordinates distorted in the same fashion.}
+\end{center}
+\end{figure}
+ 超介质为隐形斗篷的理论设计和实验实现提供了有力的保证。
+作为近年来的重大科技进展，隐形斗篷的理论研究和实验引
+起了很多科研工作者的关注\upcite{greenleaf2003ncs,greenleaf2003acc,pendry2006cef,leonhardt2006ocm,
+schurig2006cmp,chen2007ewi,schurig2006mec,li2008huc,Rliu2009bro}。隐形斗篷目的是让电磁波传播的时候绕过一个特定的
+区域，即光线按照特定的路线进行曲线传播，如图\ref{fig:pendry_ray1}。光线的弯曲，除了可在由质量引起
+的弯曲空间中产生，也可以在非均匀电磁介质
+中得到，比如海市蜃楼就是源于非均匀空气层引起的光线弯曲。2006年，J.
+Pendry和D. R.
+Smith等\upcite{pendry2006cef}提供了一种整体设计的方法，使得光线进入给定材料时，能够沿着特定的
+方向进行传播，即通过连续的方向变化形成行进的轨迹，最后沿原方向射出，这就是隐身斗篷。
+而他们所提出的方法，被称为转换光学理论。这套方法的基本思想就是Maxwell方程在坐标变换中
+形式保持不变，而折射率，即介电常数$\epsilon$和磁导率$\mu$相对于原坐标系发生改变。U.
+Leohardt同时独立提出了利用二维Helmholtz方程的变换也能够实现电磁波的隐身\upcite{leonhardt2006ocm}。
+由于Pendry等人的理论更
+方便理解，因此本文的所有讨论均基于Pendry的转换介质理论。
+\subsection{隐身斗篷、完美透镜及其它}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.5]{figures/intro/pendry_ray}\hfill
+\includegraphics[scale=0.58]{figures/intro/pendry_ray2}
+\bicaption[fig:pendry_ray2]{隐身斗篷的光线追踪示意图}{隐身斗篷的光线追踪示意图。（A）二维
+电磁波轨迹；（B）三维电磁波的轨迹；（C）点电荷位于隐身斗篷附近时的电磁波轨迹。}{Fig}{A
+ray-tracing program has been used to calculate ray trajectories in
+the cloak. (A) A two-dimensional (2D) cross section of rays striking
+our system. (B) A 3D view of the same process. (C) A point charge
+located near the cloaked sphere.}
+\end{center}
+\end{figure}
+如图\ref{fig:pendry_ray2}所示的隐身斗篷的光线示意图，转换光学对此过程做出了解释，
+随后一些研究者结合
+几何光学\upcite{schurig2006cmp}以及Mie散射理论\upcite{chen2007ewi}对于
+电磁波在斗篷内的传播性质及相互作用做深入的研究。由于参数的过于苛刻，很多研究者进而转向一些
+简化模型的研究。结合SRR单元，Schurig等人在实验上首次验证了简化隐身斗篷的隐身效果\upcite{schurig2006mec}。最近的研究
+发现了平坦空间（地毯）的隐身效果\upcite{li2008huc}，其宽频的、均匀的、低耗散的性能\upcite{Rliu2009bro}让真正的隐身迈进了一大步。
+同时，一些具有其它功能的电磁元器件也被相继发现，如旋转器\upcite{chen2007tmr}，集中器\upcite{rahm2008dec,luo2008daa}等等。
+后来Milton等人\upcite{milton1cea}转而研究声波的隐形装置，
+Cummer等\upcite{cummer2007opa,cummer2008std}和Chen等人\upcite{chen2007act}分别通过与电磁波方程、直流电导方程的对比给出了二维和三维声波隐形参数。
+最近，物质波的隐形参数也被Zhang等人\upcite{zhang2008cmw}发现。
+\section{超散射体及应用} ``穿墙术''
+
+在前面所述的超介质器件中，对光线轨迹的操纵是在材料内部实现的，我们
+更多的是惊叹其光路设计之简洁、材料实现之巧妙。最近，上海交通大学教授马
+红孺领导的研究小组则发现了超介质的一种违背直觉的效应，为超介质的应用提供了新天地。
+
+考虑真空中半径R2的虚拟圆柱。如果选择一个新坐标系，使得圆柱外的空间保
+持不变，圆柱内的空间被压缩到半径R1；那么，应该在$R1<r<R2$区域填充什么
+介质，才能将这环形区域内外的电磁场连接起来呢？通过折叠几何以及精确
+散射理论，上海交大的研究者发现，如果在半径$R1<r<R$之间填充合适的负折
+射率超颖材料，使它正好和$R<r<R2$区域的真空形成一对互补介质，那么就可
+以达到要求了。
+
+他们同时指出，如果半径R1的圆柱具有全反射表面，则在外界电磁波中，
+总散射效果相当于该表面越过互补介质区域，到达半径R2的虚拟圆柱表面
+（视觉边界）。也就是说，虽然柱形器件的实际物理半径只有R，但是电磁
+波探测到的将是一个具有更大半径R2的全反射圆柱，可称之为超散射体。稍
+后，浙江大学的孔金瓯等人也报道了从电磁散射出发，对三维情况作的类似研究。
+
+上海交大的研究者接着提出了这样的设想：为了开一扇门，要先挖掉墙中
+一块墙体，形成门洞；如果在门洞中间放置一个这样的超散射体，即它的视
+觉效果正好与被挖掉的墙体一样，那么它看上去就和周围的墙融为一体，让人
+以为那里还是一面墙。实际上，由于超散射体物理尺度比门洞小很多，物体完
+全可以在超散射体与门框之间的空间自由出入。这可以看成一种“穿墙术”，或
+者《哈里·波特》系列丛书里，学生们前往Hogwarts魔法学校时，上火车前
+必须穿过的9又3/4站台。数值模拟的结果完全证实了这一设想。
+
+上海交大的研究者还进一步讨论了超散射体的一些其他应用，包括可实现物体
+在视觉效果上变形与移位的方案，以及与香港科技大学合作提出的反隐身方案等。
+\section{内容安排}
+
+\bibliography{E:/thesis_yangtao_new/reference/intro}
+
+%\begin{thebibliography}{99}
+%\bibitem{Yablonovitch1987} E. Yablonovitch, ``Inhibited Spontaneous Emission in Solid-State Physics and Electronics,''
+%{\em Phys. Rev. Lett.} {\bf 58}, 2059 (1987).
+%\bibitem{john1987}S. John,``Strong Localization of Photos in Certain Disordered Dielectric Superlattices,'' {\em Phys. Rev. Lett.} {\bf 59}, 2486 (1987).
+%\bibitem{Yablonovitch1991} E. Yablonovitch, T. G. Gmitter and K. M. Leung,
+%``Photonic band structure: The face-centered-cubic case employing
+%nonspherical atoms,'' {\em Phys. Rev. Lett.} {\bf 67}, 2295 (1991).
+%\bibitem{JohnD} J. D. Joannopoulos, S. G. Johnson, J. N. Winn and R.
+%D. Meade ``Photonic Crystals: Molding the flow of light'' [B],
+%Princeton University Press (2008).
+%\end{thebibliography}
